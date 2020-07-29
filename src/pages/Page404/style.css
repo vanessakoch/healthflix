@@ -1,0 +1,13 @@
+.Game {
+    height: 60vh;
+    width: 103.5vh;
+    display: flex;
+    margin: 5vh auto;
+    border-color: #DC1A28;
+    border-radius: 10px;
+}
+
+.Title404 {
+    text-align: center;
+    font-weight: normal;
+}

@@ -1,68 +1,65 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="center">NessaFlix - Aplicação web com React</h3>
 
-## Available Scripts
+<h3 align="center"> 
+  <img src="https://pbs.twimg.com/media/EdyKA9rX0AAPmaS.png"> 
+  </img>
+</h3>
 
-In the project directory, you can run:
 
-### `npm start`
+---
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Indice
+  - [Sobre](#-sobre)
+  - [Tecnologias Utilizadas](#-tecnologias-e-ferramentas-utilizadas)
+  - [Como baixar o projeto](#-como-baixar-o-projeto)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+---
 
-### `npm test`
+## 😊 Sobre
+Um projeto criado do zero durante a **Imersão React** da **Alura**. Evento online e totalmente gratuito que serve para ajudar na evolução de desenvolvedores em React.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Dia 1: O que é React e componentes - 27/07 ✔
+* Dia 2: Roteamento e State - 28/07 ✔
+* Dia 3: Formulários reutilizáveis e mais componentes - 29/07 
+* Dia 4: AJAX e Validação - 30/07  
+* Dia 5: Formulário de cadastro e remoção de vídeos - 31/07  
 
-### `npm run build`
+Nessaflix é um site criado utilizando React para marcar e listar vídeos e filmes preferidos no YouTube.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## 🚀 Tecnologias e Ferramentas utilizadas
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- CSS & HTML
+- [JavaScript](https://www.javascript.com/)
+- [React](https://reactjs.org/)
 
-### `npm run eject`
+  
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 📑 Como baixar o projeto
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  Para clonar e rodar a aplicação você pecisará ter Git e Node.js instalado em seu computador.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<h3 align="center">Instalando a API</h3>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+  ```bash 
 
-## Learn More
+  # Clonar o repositório
+  $ git clone https://github.com/vanessakoch/nessaflix.git
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  # Entrar na pasta do projeto
+  $ cd nessaflix
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  # Instalando as dependências
+  $ npm install
 
-### Code Splitting
+  # Run
+  $ npm start
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+  # Rodando na porta 3000
 
-### Analyzing the Bundle Size
+  ```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+  <p align="center">
+  Desenvolvido com 💜 por Vanessa Ribeiro Koch</p>

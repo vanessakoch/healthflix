@@ -9,8 +9,7 @@ function Footer() {
         <img className='Logo' src={logo} alt="Logo NessaFlix" />
       </a>
       <p>
-        Criado por <a href="https://www.linkedin.com/in/vanessa-ribeiro-koch-134792b8/" target="true">Vanessa</a> durante a
-        {' '}
+        Criado por Vanessa durante a
         <a href="https://www.alura.com.br/">
           Imersão React da Alura
         </a>

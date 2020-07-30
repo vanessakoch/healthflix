@@ -1,4 +1,4 @@
-<h3 align="center">NessaFlix - Aplicação web com React</h3>
+<h3 align="center">HealthFlix - Aplicação web com React</h3>
 
 <h3 align="center"> 
   <img src="https://pbs.twimg.com/media/EdyKA9rX0AAPmaS.png"> 
@@ -24,7 +24,7 @@ Um projeto criado do zero durante a **Imersão React** da **Alura**. Evento onli
 * Dia 4: AJAX e Validação - 30/07  
 * Dia 5: Formulário de cadastro e remoção de vídeos - 31/07  
 
-Nessaflix é um site criado utilizando React para marcar e listar vídeos e filmes preferidos no YouTube.
+Healthflix é um site criado utilizando React para marcar e listar vídeos e filmes preferidos no YouTube.
 
 ---
 
@@ -46,10 +46,10 @@ Nessaflix é um site criado utilizando React para marcar e listar vídeos e film
   ```bash 
 
   # Clonar o repositório
-  $ git clone https://github.com/vanessakoch/nessaflix.git
+  $ git clone https://github.com/vanessakoch/healthflix.git
 
   # Entrar na pasta do projeto
-  $ cd nessaflix
+  $ cd healthflix
 
   # Instalando as dependências
   $ npm install

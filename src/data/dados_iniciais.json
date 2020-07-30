@@ -1,183 +1,199 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
+      "titulo": "Alimentação",
       "link": "https://www.alura.com.br/formacao-front-end",
-      "cor": "#6BD1FF",
+      "cor": "#EC0868",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Vídeos para melhorar sua alimentação",
+        "url": "https://www.youtube.com/results?search_query=comer+saud%C3%A1vel"
       },
       "videos": [
         {
-          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "titulo": "Coronavírus: como age? Por onde anda? Como evitar? #JuntosContraCoronavirus",
+          "url": "https://www.youtube.com/watch?v=LwUjglzIUhc"
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "Comer saudável é caro? Nós vamos provar pra você que não é!",
+          "url": "https://www.youtube.com/watch?v=0GttFfZAbQw"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "Como gostar de comer saudável?",
+          "url": "https://www.youtube.com/watch?v=aSqf11s69mg"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+          "titulo": "Dicas para reeducação alimentar",
+          "url": "https://www.youtube.com/watch?v=KJetV1O4PIY"
         },
         {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+          "titulo": "Alimentação saudável: Diabetes e alimentação",
+          "url": "https://www.youtube.com/watch?v=qI-6SjZ8VmI"
         },
         {
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+          "titulo": "Como cuidar do seu intestino?",
+          "url": "https://www.youtube.com/watch?v=ZtIyDq2PjxA"
         },
         {
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+          "titulo": "Dicas de Alimentação Saudável",
+          "url": "https://www.youtube.com/watch?v=l-0Cza9ThsY"
         },
         {
-          "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "5 alimentos que você deve comer pela manhã",
+          "url": "https://www.youtube.com/watch?v=ww9qZyBRFdQ"
+        },
+        {
+          "titulo": "Alimentação na menopausa",
+          "url": "https://www.youtube.com/watch?v=13g736JTk0I"
         }        
       ]
     },
     {
-      "titulo": "Back End",
-      "cor": "#00C86F",
+      "titulo": "Atividade Física",
+      "cor": "#C200FB",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
+        "text": "Vídeos com exercícios para fazer em casa",
+        "url": "https://www.youtube.com/results?search_query=exerc%C3%ADcios+em+casa"
       },
       "videos": [
         {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+          "titulo": "Exercício em casa - treino completo",
+          "url": "https://www.youtube.com/watch?v=68YOVA0HPVg"
         },
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+          "titulo": "Treino para o corpo todo em 15 minutos",
+          "url": "https://www.youtube.com/watch?v=MxQBcv2FoqA"
         },
         {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+          "titulo": "Treino para iniciantes",
+          "url": "https://www.youtube.com/watch?v=DOe7Gz1JzEQ"
         },
         {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
-        }, 
+          "titulo": "Aerohit em casa!",
+          "url": "https://www.youtube.com/watch?v=6fkp0VIL7H4"
+        },
         {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          "titulo": "Exercício caseiro de 1000 calorias!",
+          "url": "https://www.youtube.com/watch?v=2feE3jKYDQ8"
+        },
+        {
+          "titulo": "Aeróbica",
+          "url": "https://www.youtube.com/watch?v=UwW586G8GnU"
+        } 
+      ]
+    },
+    {
+      "titulo": "Saúde Mental",
+      "cor": "#016FB9",
+      "link_extra": {
+        "text": "Vídeos que falam sobre a saúde mental",
+        "url": "https://www.youtube.com/results?search_query=saude+mental"
+      },
+      "videos": [
+        {
+          "titulo": "QUARENTENA: SAÚDE MENTAL E AUTOCUIDADO PARA NÃO SURTAR",
+          "url": "https://www.youtube.com/watch?v=CCjwirWG_Ok"
+        },
+        {
+          "titulo": "Como lidar com as frustrações",
+          "url": "https://www.youtube.com/watch?v=BYj8_R4JuU4"
+        },
+        {
+          "titulo": "Saúde mental na quarentena",
+          "url": "https://www.youtube.com/watch?v=JIof2PXlQ20"
+        },
+        {
+          "titulo": "Como cuidar da saúde mental no home office?",
+          "url": "https://www.youtube.com/watch?v=Av_J1tltld8"
+        },
+        {
+          "titulo": "Saúde mental, emocional e física",
+          "url": "https://www.youtube.com/watch?v=k13N1SRFjDA"
+        },
+        {
+          "titulo": "Hábitos para melhorar sua saúde mental",
+          "url": "https://www.youtube.com/watch?v=U9_nVrT4h5o"
+        },
+        {
+          "titulo": "Por que ninguêm fala sobre saúde mental?",
+          "url": "https://www.youtube.com/watch?v=UwyE_XIQ7DA"
         }
       ]
     },
     {
-      "titulo": "Data Science e Inteligência Artificial",
-      "cor": "#9cd33b",
-      "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
-      },
+      "titulo": "Relacionamento",
+      "cor": "#FC2F00",
       "videos": [
         {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+          "titulo": "Reflexão sobre a importância da amizade",
+          "url": "https://www.youtube.com/watch?v=2hSg3c2QtEc"
         },
         {
-          "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+          "titulo": "A importância da família em nossas vidas",
+          "url": "https://www.youtube.com/watch?v=cYVNqlmnpfE"
         },
         {
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+          "titulo": "A importância do respeito",
+          "url": "https://www.youtube.com/watch?v=c6Al46Pir_U"
         },
         {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+          "titulo": "O poder do relacionamento",
+          "url": "https://www.youtube.com/watch?v=bW52odUNERY"
+        },
+        {
+          "titulo": "Relações: a importância de cultivar relacionamentos",
+          "url": "https://www.youtube.com/watch?v=8m_L6ZdPrHc"
         }
       ]
     },
     {
-      "titulo": "Filmes",
-      "cor": "orange",
+      "titulo": "Hobbies",
+      "cor": "#38A700",
+      "link_extra": {
+        "text": "A importância de ter um hobbie",
+        "url": "https://www.youtube.com/results?search_query=importancia+do+hobbie"
+      },
       "videos": [
         {
-          "titulo": "Interestellar",
-          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+          "titulo": "Tenha um Hobbie",
+          "url": "https://www.youtube.com/watch?v=DRkjrSfZqVE"
         },
         {
-          "titulo": "Gattaca",
-          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+          "titulo": "Procura-se Hobbie",
+          "url": "https://www.youtube.com/watch?v=DnokMythqCY"
         },
         {
-          "titulo": "A Chegada",
-          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+          "titulo": "Hobbies para tentar em casa em 2020",
+          "url": "https://www.youtube.com/watch?v=-RQKg_k3Vfk"
         },
         {
-          "titulo": "Feitiço do Tempo",
-          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+          "titulo": "Porque é importante ter um hobbie?",
+          "url": "https://www.youtube.com/watch?v=ukxTa67RNQ8"
         }
       ]
     },
     {
-      "titulo": "Games",
-      "cor": "red",
+      "titulo": "Bem Estar",
+      "cor": "#06BCC1",
       "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/formacao-jogos-unity"
+        "text": "O poder em estar bem consigo mesmo",
+        "url": "https://www.youtube.com/results?search_query=saude+e+bem+estar"
       },
       "videos": [
         {
-          "titulo": "Final Fantasy 7",
-          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+          "titulo": "10 dicas de saúde e bem estar pra você!",
+          "url": "https://www.youtube.com/watch?v=uMjtXgNJDW8"
         },
         {
-          "titulo": "Assassins Creed Valhalla",
-          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+          "titulo": "Como dormir bem?",
+          "url": "https://www.youtube.com/watch?v=Tt8UJParc5A"
         },
         {
-          "titulo": "God of War 4",
-          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+          "titulo": "Rotina saudável e sem neura",
+          "url": "https://www.youtube.com/watch?v=qc9T3DWuE_w"
         },
         {
-          "titulo": "Resident Evil 8",
-          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
-        },
-        {
-          "titulo": "Pokémon Let's Go Pikachu/Eevee",
-          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
-        }
-      ]
-    },
-    {
-      "titulo": "Aprendendo a aprender tecnologia",
-      "cor": "#6b5be2",
-      "link_extra": {
-        "text": "Curso sobre aprendizado na Alura",
-        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
-      },
-      "videos": [
-        {
-          "titulo": "Como estudar melhor?",
-          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
-        },
-        {
-          "titulo": "Faculdade",
-          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
-        },
-        {
-          "titulo": "Frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
-        },
-        {
-          "titulo": "A mágica do Aprendizado",
-          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
-        },
-        {
-          "titulo": "Como aprender a programar?",
-          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+          "titulo": "Hábitos para implementar na sua rotina",
+          "url": "https://www.youtube.com/watch?v=9ECxmV3g_3w"
         }
       ]
     }

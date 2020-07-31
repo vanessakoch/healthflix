@@ -7,7 +7,7 @@ import useForm from '../../../hooks/useForm';
 
 function CadastroCategoria() {
   const inicialData = {
-    nome: '',
+    titulo: '',
     descricao: '',
     cor: '',
   };
@@ -15,41 +15,40 @@ function CadastroCategoria() {
   const [categorias, setCategorias] = useState([]);
   const { handleChange, values, clearForm } = useForm(inicialData);
 
-  function handleSubmit(e) {
-    e.preventDefault();
-    setCategorias([
-      ...categorias,
-      values,
-    ]);
-    clearForm();
-  }
-
   useEffect(() => {
-    const URL = window.location.hostname.includes('localhost')
+    const url = window.location.host.includes('localhost')
       ? 'http://localhost:8080/categorias'
       : 'https://health-flix.herokuapp.com/categorias';
+    fetch(url).then(async (response) => {
+      const res = await response.json();
+      console.log(res);
 
-    fetch(URL).then(async (res) => {
-      const resposta = await res.json();
       setCategorias([
-        ...resposta,
+        ...res,
       ]);
-    });
-  }, [values.nome]);
+    })
+  }, []);
 
   return (
     <PageDefault>
       <h1>
         Cadastro de Categoria:
-        {values.nome}
+        {values.titulo}
       </h1>
-      <form onSubmit={handleSubmit}>
-
+      <form onSubmit={function handleSubmit(e) {
+        e.preventDefault();
+        setCategorias([
+          ...categorias,
+          values,
+        ]);
+        clearForm();
+      }}
+      >
         <FormField
           label="Nome da Categoria"
           type="text"
-          name="nome"
-          value={values.nome}
+          name="titulo"
+          value={values.titulo}
           onChange={handleChange}
         />
 
@@ -70,19 +69,18 @@ function CadastroCategoria() {
         />
 
         <Button>Cadastrar</Button>
-
       </form>
 
       {categorias.length === 0 && (
-      <div>
-        Loading...
-      </div>
+        <div>
+          Loading...
+        </div>
       )}
 
       <ul>
         {categorias.map((categoria) => (
-          <li key={`${categoria.nome}`}>
-            {categoria.nome}
+          <li key={`${categoria.id}`}>
+            {categoria.titulo}
           </li>
         ))}
       </ul>

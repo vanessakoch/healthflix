@@ -2,7 +2,7 @@
   "categorias": [
     {
       "id": 1,
-      "nome": "Alimentação",
+      "titulo": "Alimentação",
       "descricao": "Vídeos para melhorar sua alimentação",
       "cor": "#EC0868",
       "link_extra": {
@@ -12,7 +12,7 @@
     },
     {
       "id": 2,
-      "nome": "Atividade Física",
+      "titulo": "Atividade Física",
       "descricao": "Vídeos com exercícios para fazer em casa",
       "cor": "#C200FB",
       "link_extra": {
@@ -22,7 +22,7 @@
     },
     {
       "id": 3,
-      "nome": "Saúde Mental",
+      "titulo": "Saúde Mental",
       "descricao": "Vídeos que falam sobre a saúde mental",
       "cor": "#016FB9",
       "link_extra": {
@@ -32,13 +32,13 @@
     },
     {
       "id": 4,
-      "nome": "Relacionamento",
+      "titulo": "Relacionamento",
       "descricao": "",
       "cor": "#FC2F00"
     },
     {
       "id": 5,
-      "nome": "Hobbies",
+      "titulo": "Hobbies",
       "descricao": "A importância de ter um hobbie",
       "cor": "#38A700",
       "link_extra": {
@@ -48,7 +48,7 @@
     },
     {
       "id": 6,
-      "nome": "Bem Estar",
+      "titulo": "Bem Estar",
       "cor": "#06BCC1",
       "link_extra": {
         "text": "O poder em estar bem consigo mesmo",
@@ -56,7 +56,6 @@
       }
     }
   ],
-
   "videos": [
     {
       "id": 1,
@@ -112,44 +111,42 @@
       "titulo": "Alimentação na menopausa",
       "url": "https://www.youtube.com/watch?v=13g736JTk0I"
     },
-    
     {
       "id": 10,
-      "categoriaId": 2,      
+      "categoriaId": 2,
       "titulo": "Exercício em casa - treino completo",
       "url": "https://www.youtube.com/watch?v=68YOVA0HPVg"
     },
     {
       "id": 11,
-      "categoriaId": 2,      
+      "categoriaId": 2,
       "titulo": "Treino para o corpo todo em 15 minutos",
       "url": "https://www.youtube.com/watch?v=MxQBcv2FoqA"
     },
     {
       "id": 12,
-      "categoriaId": 2,      
+      "categoriaId": 2,
       "titulo": "Treino para iniciantes",
       "url": "https://www.youtube.com/watch?v=DOe7Gz1JzEQ"
     },
     {
       "id": 13,
-      "categoriaId": 2,      
+      "categoriaId": 2,
       "titulo": "Aerohit em casa!",
       "url": "https://www.youtube.com/watch?v=6fkp0VIL7H4"
     },
     {
       "id": 14,
-      "categoriaId": 2,      
+      "categoriaId": 2,
       "titulo": "Exercício caseiro de 1000 calorias!",
       "url": "https://www.youtube.com/watch?v=2feE3jKYDQ8"
     },
     {
       "id": 10,
-      "categoriaId": 2,      
+      "categoriaId": 2,
       "titulo": "Aeróbica",
       "url": "https://www.youtube.com/watch?v=UwW586G8GnU"
     },
-
     {
       "id": 11,
       "categoriaId": 3,
@@ -192,7 +189,6 @@
       "titulo": "Por que ninguêm fala sobre saúde mental?",
       "url": "https://www.youtube.com/watch?v=UwyE_XIQ7DA"
     },
-
     {
       "id": 18,
       "categoriaId": 4,
@@ -223,7 +219,6 @@
       "titulo": "Relações: a importância de cultivar relacionamentos",
       "url": "https://www.youtube.com/watch?v=8m_L6ZdPrHc"
     },
-
     {
       "id": 23,
       "categoriaId": 5,
@@ -248,7 +243,6 @@
       "titulo": "Porque é importante ter um hobbie?",
       "url": "https://www.youtube.com/watch?v=ukxTa67RNQ8"
     },
-
     {
       "id": 26,
       "categoriaId": 6,
@@ -272,6 +266,18 @@
       "categoriaId": 6,
       "titulo": "Hábitos para implementar na sua rotina",
       "url": "https://www.youtube.com/watch?v=9ECxmV3g_3w"
-    }   
+    },
+    {
+      "titulo": "OI",
+      "url": "https://www.youtube.com/watch?v=QlGd2XHTf68",
+      "categoriaId": 1,
+      "id": 30
+    },
+    {
+      "titulo": "a",
+      "url": "https://www.youtube.com/watch?v=XVRjxijlLoE",
+      "categoriaId": 1,
+      "id": 31
+    }
   ]
 }

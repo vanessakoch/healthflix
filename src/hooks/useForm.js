@@ -19,8 +19,8 @@ function useForm(inicialData) {
   }
 
   return {
-    handleChange,
     values,
+    handleChange,
     clearForm,
   };
 }

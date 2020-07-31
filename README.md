@@ -20,9 +20,9 @@ Um projeto criado do zero durante a **Imersão React** da **Alura**. Evento onli
 
 * Dia 1: O que é React e componentes - 27/07 ✔
 * Dia 2: Roteamento e State - 28/07 ✔
-* Dia 3: Formulários reutilizáveis e mais componentes - 29/07 
-* Dia 4: AJAX e Validação - 30/07  
-* Dia 5: Formulário de cadastro e remoção de vídeos - 31/07  
+* Dia 3: Formulários reutilizáveis e mais componentes - 29/07 ✔
+* Dia 4: AJAX e Validação - 30/07  ✔
+* Dia 5: Formulário de cadastro e remoção de vídeos - 31/07  ✔
 
 Healthflix é um site criado utilizando React para marcar e listar vídeos e filmes preferidos no YouTube.
 

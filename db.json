@@ -4,19 +4,31 @@
       "id": 1,
       "nome": "Alimentação",
       "descricao": "Vídeos para melhorar sua alimentação",
-      "cor": "#EC0868"
+      "cor": "#EC0868",
+      "link_extra": {
+        "text": "Vídeos para melhorar sua alimentação",
+        "url": "https://www.youtube.com/results?search_query=comer+saud%C3%A1vel"
+      }
     },
     {
       "id": 2,
       "nome": "Atividade Física",
       "descricao": "Vídeos com exercícios para fazer em casa",
-      "cor": "#C200FB"
+      "cor": "#C200FB",
+      "link_extra": {
+        "text": "Vídeos com exercícios para fazer em casa",
+        "url": "https://www.youtube.com/results?search_query=exerc%C3%ADcios+em+casa"
+      }
     },
     {
       "id": 3,
       "nome": "Saúde Mental",
       "descricao": "Vídeos que falam sobre a saúde mental",
-      "cor": "#016FB9"
+      "cor": "#016FB9",
+      "link_extra": {
+        "text": "Vídeos que falam sobre a saúde mental",
+        "url": "https://www.youtube.com/results?search_query=saude+mental"
+      }
     },
     {
       "id": 4,
@@ -28,7 +40,238 @@
       "id": 5,
       "nome": "Hobbies",
       "descricao": "A importância de ter um hobbie",
-      "cor": "#38A700"
+      "cor": "#38A700",
+      "link_extra": {
+        "text": "A importância de ter um hobbie",
+        "url": "https://www.youtube.com/results?search_query=importancia+do+hobbie"
+      }
+    },
+    {
+      "id": 6,
+      "nome": "Bem Estar",
+      "cor": "#06BCC1",
+      "link_extra": {
+        "text": "O poder em estar bem consigo mesmo",
+        "url": "https://www.youtube.com/results?search_query=saude+e+bem+estar"
+      }
     }
+  ],
+
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Coronavírus: como age? Por onde anda? Como evitar? #JuntosContraCoronavirus",
+      "url": "https://www.youtube.com/watch?v=LwUjglzIUhc"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "Comer saudável é caro? Nós vamos provar pra você que não é!",
+      "url": "https://www.youtube.com/watch?v=0GttFfZAbQw"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "Como gostar de comer saudável?",
+      "url": "https://www.youtube.com/watch?v=aSqf11s69mg"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Dicas para reeducação alimentar",
+      "url": "https://www.youtube.com/watch?v=KJetV1O4PIY"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "Alimentação saudável: Diabetes e alimentação",
+      "url": "https://www.youtube.com/watch?v=qI-6SjZ8VmI"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "Como cuidar do seu intestino?",
+      "url": "https://www.youtube.com/watch?v=ZtIyDq2PjxA"
+    },
+    {
+      "id": 7,
+      "categoriaId": 1,
+      "titulo": "Dicas de Alimentação Saudável",
+      "url": "https://www.youtube.com/watch?v=l-0Cza9ThsY"
+    },
+    {
+      "id": 8,
+      "categoriaId": 1,
+      "titulo": "5 alimentos que você deve comer pela manhã",
+      "url": "https://www.youtube.com/watch?v=ww9qZyBRFdQ"
+    },
+    {
+      "id": 9,
+      "categoriaId": 1,
+      "titulo": "Alimentação na menopausa",
+      "url": "https://www.youtube.com/watch?v=13g736JTk0I"
+    },
+    
+    {
+      "id": 10,
+      "categoriaId": 2,      
+      "titulo": "Exercício em casa - treino completo",
+      "url": "https://www.youtube.com/watch?v=68YOVA0HPVg"
+    },
+    {
+      "id": 11,
+      "categoriaId": 2,      
+      "titulo": "Treino para o corpo todo em 15 minutos",
+      "url": "https://www.youtube.com/watch?v=MxQBcv2FoqA"
+    },
+    {
+      "id": 12,
+      "categoriaId": 2,      
+      "titulo": "Treino para iniciantes",
+      "url": "https://www.youtube.com/watch?v=DOe7Gz1JzEQ"
+    },
+    {
+      "id": 13,
+      "categoriaId": 2,      
+      "titulo": "Aerohit em casa!",
+      "url": "https://www.youtube.com/watch?v=6fkp0VIL7H4"
+    },
+    {
+      "id": 14,
+      "categoriaId": 2,      
+      "titulo": "Exercício caseiro de 1000 calorias!",
+      "url": "https://www.youtube.com/watch?v=2feE3jKYDQ8"
+    },
+    {
+      "id": 10,
+      "categoriaId": 2,      
+      "titulo": "Aeróbica",
+      "url": "https://www.youtube.com/watch?v=UwW586G8GnU"
+    },
+
+    {
+      "id": 11,
+      "categoriaId": 3,
+      "titulo": "QUARENTENA: SAÚDE MENTAL E AUTOCUIDADO PARA NÃO SURTAR",
+      "url": "https://www.youtube.com/watch?v=CCjwirWG_Ok"
+    },
+    {
+      "id": 12,
+      "categoriaId": 3,
+      "titulo": "Como lidar com as frustrações",
+      "url": "https://www.youtube.com/watch?v=BYj8_R4JuU4"
+    },
+    {
+      "id": 13,
+      "categoriaId": 3,
+      "titulo": "Saúde mental na quarentena",
+      "url": "https://www.youtube.com/watch?v=JIof2PXlQ20"
+    },
+    {
+      "id": 14,
+      "categoriaId": 3,
+      "titulo": "Como cuidar da saúde mental no home office?",
+      "url": "https://www.youtube.com/watch?v=Av_J1tltld8"
+    },
+    {
+      "id": 15,
+      "categoriaId": 3,
+      "titulo": "Saúde mental, emocional e física",
+      "url": "https://www.youtube.com/watch?v=k13N1SRFjDA"
+    },
+    {
+      "id": 16,
+      "categoriaId": 3,
+      "titulo": "Hábitos para melhorar sua saúde mental",
+      "url": "https://www.youtube.com/watch?v=U9_nVrT4h5o"
+    },
+    {
+      "id": 17,
+      "categoriaId": 3,
+      "titulo": "Por que ninguêm fala sobre saúde mental?",
+      "url": "https://www.youtube.com/watch?v=UwyE_XIQ7DA"
+    },
+
+    {
+      "id": 18,
+      "categoriaId": 4,
+      "titulo": "Reflexão sobre a importância da amizade",
+      "url": "https://www.youtube.com/watch?v=2hSg3c2QtEc"
+    },
+    {
+      "id": 19,
+      "categoriaId": 4,
+      "titulo": "A importância da família em nossas vidas",
+      "url": "https://www.youtube.com/watch?v=cYVNqlmnpfE"
+    },
+    {
+      "id": 20,
+      "categoriaId": 4,
+      "titulo": "A importância do respeito",
+      "url": "https://www.youtube.com/watch?v=c6Al46Pir_U"
+    },
+    {
+      "id": 21,
+      "categoriaId": 4,
+      "titulo": "O poder do relacionamento",
+      "url": "https://www.youtube.com/watch?v=bW52odUNERY"
+    },
+    {
+      "id": 22,
+      "categoriaId": 4,
+      "titulo": "Relações: a importância de cultivar relacionamentos",
+      "url": "https://www.youtube.com/watch?v=8m_L6ZdPrHc"
+    },
+
+    {
+      "id": 23,
+      "categoriaId": 5,
+      "titulo": "Tenha um Hobbie",
+      "url": "https://www.youtube.com/watch?v=DRkjrSfZqVE"
+    },
+    {
+      "id": 24,
+      "categoriaId": 5,
+      "titulo": "Procura-se Hobbie",
+      "url": "https://www.youtube.com/watch?v=DnokMythqCY"
+    },
+    {
+      "id": 25,
+      "categoriaId": 5,
+      "titulo": "Hobbies para tentar em casa em 2020",
+      "url": "https://www.youtube.com/watch?v=-RQKg_k3Vfk"
+    },
+    {
+      "id": 25,
+      "categoriaId": 5,
+      "titulo": "Porque é importante ter um hobbie?",
+      "url": "https://www.youtube.com/watch?v=ukxTa67RNQ8"
+    },
+
+    {
+      "id": 26,
+      "categoriaId": 6,
+      "titulo": "10 dicas de saúde e bem estar pra você!",
+      "url": "https://www.youtube.com/watch?v=uMjtXgNJDW8"
+    },
+    {
+      "id": 27,
+      "categoriaId": 6,
+      "titulo": "Como dormir bem?",
+      "url": "https://www.youtube.com/watch?v=Tt8UJParc5A"
+    },
+    {
+      "id": 28,
+      "categoriaId": 6,
+      "titulo": "Rotina saudável e sem neura",
+      "url": "https://www.youtube.com/watch?v=qc9T3DWuE_w"
+    },
+    {
+      "id": 29,
+      "categoriaId": 6,
+      "titulo": "Hábitos para implementar na sua rotina",
+      "url": "https://www.youtube.com/watch?v=9ECxmV3g_3w"
+    }   
   ]
 }

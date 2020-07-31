@@ -5,7 +5,7 @@ import styled, { css } from 'styled-components';
 const FormFieldWrapper = styled.div`
   position: relative;
   textarea {
-    min-height: 150px;
+    min-height: 135px;
   }
   input[type="color"] {
     padding-left: 56px;
@@ -14,7 +14,7 @@ const FormFieldWrapper = styled.div`
 
 const Label = styled.label``;
 Label.Text = styled.span`
-  color: #E5E5E5;
+  color: #F1E4F3;
   height: 57px;
   position: absolute; 
   top: 0;
@@ -27,17 +27,16 @@ Label.Text = styled.span`
   font-size: 18px;
   font-style: normal;
   font-weight: 300;
-  
   transition: .1s ease-in-out;
 `;
 
 const Input = styled.input`
-  background: #53585D;
+  background: #2C2C34;
   color: #F5F5F5;
   display: block;
   width: 100%;
   height: 57px;
-  font-size: 18px;
+  font-size: 16px;
   
   outline: 0;
   border: 0;
@@ -87,7 +86,6 @@ function FormField({
           />
           <Label.Text>
             {label}
-            :
           </Label.Text>
         </Label>
       </div>

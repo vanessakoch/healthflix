@@ -13,7 +13,7 @@ function CadastroCategoria() {
 
   const [categorias, setCategorias] = useState([]);
   const [values, setValues] = useState(inicialData);
-
+  
   function setValue(key, value) {
     setValues({
       ...values,
@@ -21,12 +21,24 @@ function CadastroCategoria() {
     });
   }
 
+  function handleSubmit(e) {
+    e.preventDefault();
+    setCategorias([
+      ...categorias,
+      values,
+    ]);
+    setValues(inicialData);
+  }
+
   function handleChange(e) {
     setValue(e.target.getAttribute('name'), e.target.value);
   }
 
   useEffect(() => {
-    const URL = 'http://localhost:8080/categorias';
+    const URL = window.location.hostname.includes('localhost')
+      ? 'http://localhost:8080/categorias'
+      : 'https://health-flix.herokuapp.com/categorias';
+
     fetch(URL).then(async (res) => {
       const resposta = await res.json();
       setCategorias([
@@ -41,15 +53,7 @@ function CadastroCategoria() {
         Cadastro de Categoria:
         {values.nome}
       </h1>
-      <form onSubmit={function handleSubmit(e) {
-        e.preventDefault();
-        setCategorias([
-          ...categorias,
-          values,
-        ]);
-        setValues(inicialData);
-      }}
-      >
+      <form onSubmit={handleSubmit}>
 
         <FormField
           label="Nome da Categoria"

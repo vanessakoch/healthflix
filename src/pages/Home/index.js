@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import BannerMain from '../../components/BannerMain';
 import Carousel from '../../components/Carousel';
+import Loading from '../../components/Loading';
 import PageDefault from '../../components/PageDefault';
 import categoriasRepository from '../../repositories/categorias';
 
@@ -19,7 +20,11 @@ function Home() {
 
   return (
     <PageDefault paddingAll={0}>
-      {dadosIniciais.length === 0 && (<div>Loading...</div>)}
+      {dadosIniciais.length === 0 && (
+        <div>
+          <Loading />
+        </div>
+      )}
 
       {dadosIniciais.map((categoria, indice) => {
         if (indice === 0) {

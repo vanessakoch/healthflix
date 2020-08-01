@@ -11,7 +11,9 @@ function Home() {
   useEffect(() => {
     categoriasRepository.getAllWithVideos()
       .then((categoriasComVideos) => {
-        setDadosIniciais(categoriasComVideos);
+        setTimeout(() => {
+          setDadosIniciais(categoriasComVideos);
+        }, 4000);
       })
       .catch((err) => {
         console.log(err.message);
